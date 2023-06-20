@@ -10,7 +10,7 @@ public class Companion : MonoBehaviour
     
     private void Awake()
     {
-        
+        _animator.SetBool("Idle", true);
     }
 
     // Update is called once per frame
