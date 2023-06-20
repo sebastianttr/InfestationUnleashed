@@ -83,8 +83,10 @@
      <Compile Include="Assets/Scripts/DataStorage.cs" />
      <Compile Include="Assets/Scripts/Pathfinding/Pathfinding.cs" />
      <Compile Include="Assets/Scripts/enums/MovementType.cs" />
+     <Compile Include="Assets/Scripts/Companion.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
      <Compile Include="Assets/Scripts/Pathfinding/Grid.cs" />
+     <Compile Include="Assets/Scripts/CameraMovement.cs" />
      <Compile Include="Assets/Scripts/Pathfinding/Line.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
@@ -96,7 +98,6 @@
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
      <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
-     <Compile Include="Assets/Scripts/CameraMovement.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/Scripts/enums" />
      <Folder Include="Assets/Scripts" />

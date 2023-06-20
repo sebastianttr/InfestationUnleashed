@@ -10,6 +10,7 @@ public class Unit : MonoBehaviour
     public float turnSpeed = 3; // Speed of turning
     public float turnDst = 5; // Distance from a waypoint at which to start turning
     public float stoppingDst = 10; // Distance from the target at which to stop
+    public bool YAxisRotation = false;
 
     private Path path; // Current path for the unit to follow
 
@@ -37,6 +38,7 @@ public class Unit : MonoBehaviour
         {
             yield return new WaitForSeconds(.3f);
         }
+        
         PathRequestManager.RequestPath(new PathRequest(transform.position, target.position, OnPathFound));
 
         float sqrMoveThreshold = pathUpdateMoveThreshold * pathUpdateMoveThreshold;
@@ -94,7 +96,9 @@ public class Unit : MonoBehaviour
                 }
 
                 // Rotate towards the next waypoint and move forward
-                Quaternion targetRotation = Quaternion.LookRotation(path.lookPoints[pathIndex] - transform.position);
+                Vector3 lookDirection = path.lookPoints[pathIndex] - transform.position;
+                Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
+                
                 transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * turnSpeed);
                 transform.Translate(Vector3.forward * Time.deltaTime * speed * speedPercent, Space.Self);
             }

@@ -1,8 +1,23 @@
 fileFormatVersion: 2
-guid: bc4e457cbceee0940af4e1ada8f2ad5e
+guid: 5ca43eff2b2404bfcba452c265f53162
 ModelImporter:
   serializedVersion: 21300
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: 5869354328548889270
+    second: head|idle_comp
+  - first:
+      74: 4808340223323019497
+    second: ArmatureComp|abilityUp
+  - first:
+      74: -2579222173530582268
+    second: ArmatureComp|idle_comp
+  - first:
+      74: -4285505361678153065
+    second: ArmatureComp|idleToWalk_comp
+  - first:
+      74: 6553909834493433024
+    second: ArmatureComp|walk_comp
   externalObjects: {}
   materials:
     materialImportMode: 2

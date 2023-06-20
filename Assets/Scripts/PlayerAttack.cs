@@ -20,15 +20,8 @@ public class PlayerAttack : MonoBehaviour
     private void Awake()
     {
         _particleSystem = gameObject.GetComponentInChildren<ParticleSystem>();
-        if (_particleSystem == null)
-        {
-            Debug.LogError("Could not load the particle system!");
-            _particleSystem = new ParticleSystem();
-        }
-        else
-        {
-            _particleSystem.Stop();
-        }
+        if (_particleSystem == null) _particleSystem = new ParticleSystem();
+        else _particleSystem.Stop();
     }
 
     void OnShoot()
@@ -43,9 +36,7 @@ public class PlayerAttack : MonoBehaviour
             shooting = true;
             _particleSystem.Play();
         }
-            
 
-        Debug.Log(shooting);
     }
 
     private void OnTriggerEnter(Collider other)

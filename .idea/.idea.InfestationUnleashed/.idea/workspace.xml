@@ -4,8 +4,10 @@
     <list default="true" id="6efd450a-fe07-44b4-9c71-e01655175362" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InfestationUnleashed/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfestationUnleashed/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Comp_v001.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Comp_v001.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pathfinding/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pathfinding/Unit.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAttack.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +104,8 @@
       <workItem from="1686726874716" duration="932000" />
       <workItem from="1686727812899" duration="3495000" />
       <workItem from="1686903873358" duration="6731000" />
-      <workItem from="1687161271293" duration="7615000" />
+      <workItem from="1687161271293" duration="12121000" />
+      <workItem from="1687247910062" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="Game Stats and more Components">
       <created>1686665774524</created>
