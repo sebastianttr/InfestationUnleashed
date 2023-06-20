@@ -7,26 +7,29 @@ ModelImporter:
       74: 5869354328548889270
     second: head|idle_comp
   - first:
-      74: -1397779689282786472
-    second: ArmatureComp|ability
+      74: -8513126767386375169
+    second: ArmatureComp|ability_comp
   - first:
-      74: 4808340223323019497
-    second: ArmatureComp|abilityUp
+      74: -2970664165457925247
+    second: ArmatureComp|abilityUp_comp
   - first:
-      74: 8607150192557517444
-    second: ArmatureComp|emoteXD
+      74: 8433684248458219512
+    second: ArmatureComp|death_comp
   - first:
       74: -2579222173530582268
     second: ArmatureComp|idle_comp
   - first:
+      74: 973858717743350487
+    second: ArmatureComp|idleShoot_comp
+  - first:
       74: -4285505361678153065
     second: ArmatureComp|idleToWalk_comp
   - first:
-      74: 9035538970428680006
-    second: ArmatureComp|shooting_comp
-  - first:
       74: 6553909834493433024
     second: ArmatureComp|walk_comp
+  - first:
+      74: -6083013502232138101
+    second: ArmatureComp|walkShoot_comp.001
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -57,8 +60,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: ArmatureComp|ability
-      takeName: ArmatureComp|ability
+      name: ArmatureComp|ability_comp
+      takeName: ArmatureComp|ability_comp
       internalID: 0
       firstFrame: 0
       lastFrame: 69
@@ -86,11 +89,40 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ArmatureComp|abilityUp
-      takeName: ArmatureComp|abilityUp
+      name: ArmatureComp|abilityUp_comp
+      takeName: ArmatureComp|abilityUp_comp
       internalID: 0
       firstFrame: 0
       lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmatureComp|death_comp
+      takeName: ArmatureComp|death_comp
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 29
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -144,11 +176,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ArmatureComp|idleToWalk_comp
-      takeName: ArmatureComp|idleToWalk_comp
+      name: ArmatureComp|idleShoot_comp
+      takeName: ArmatureComp|idleShoot_comp
       internalID: 0
       firstFrame: 0
-      lastFrame: 11
+      lastFrame: 24
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -173,11 +205,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: ArmatureComp|shooting_comp
-      takeName: ArmatureComp|shooting_comp
+      name: ArmatureComp|idleToWalk_comp
+      takeName: ArmatureComp|idleToWalk_comp
       internalID: 0
       firstFrame: 0
-      lastFrame: 1
+      lastFrame: 11
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -214,6 +246,35 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmatureComp|walkShoot_comp.001
+      takeName: ArmatureComp|walkShoot_comp.001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
