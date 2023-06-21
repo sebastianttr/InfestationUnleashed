@@ -41,8 +41,10 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.tag);
         if (shooting && other.transform.CompareTag("Enemy"))
         {
+            Debug.Log("Adding enemy");
             colliderItems.Add(other.gameObject);
         }
     }
@@ -59,6 +61,7 @@ public class PlayerAttack : MonoBehaviour
         {
             if (!enemy.IsDestroyed())
             {
+                Debug.Log("Reducing health");
                 var enemyStats = enemy.GetComponentInParent<EnemyStats>();
                 enemyStats.ReduceHealth(2);
             }
@@ -81,7 +84,6 @@ public class PlayerAttack : MonoBehaviour
             _nextUpdate=Time.time+0.25f;
             // Call your fonction
             ReduceHealthEnemies();
-            
         }
     }
 }

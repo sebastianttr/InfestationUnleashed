@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6efd450a-fe07-44b4-9c71-e01655175362" name="Changes" comment="" />
+    <list default="true" id="6efd450a-fe07-44b4-9c71-e01655175362" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InfestationUnleashed/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfestationUnleashed/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/glass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Companion.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Companion.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Companion.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Companion.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Companion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Companion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAttack.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +106,7 @@
       <workItem from="1686727812899" duration="3495000" />
       <workItem from="1686903873358" duration="6731000" />
       <workItem from="1687161271293" duration="12121000" />
-      <workItem from="1687247910062" duration="3562000" />
+      <workItem from="1687247910062" duration="12794000" />
     </task>
     <task id="LOCAL-00001" summary="Game Stats and more Components">
       <created>1686665774524</created>

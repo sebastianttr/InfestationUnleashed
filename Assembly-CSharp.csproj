@@ -102,12 +102,17 @@
      <Folder Include="Assets/Scripts/enums" />
      <Folder Include="Assets/Scripts" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+     <Folder Include="Assets/Wwise/Tools" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Sprites" />
      <Folder Include="Assets/Polybrush Data" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets/Wwise/Documentation/Windows/en" />
      <Folder Include="Assets/TextMesh Pro/Sprites" />
+     <Folder Include="Assets/StreamingAssets/Audio/GeneratedSoundBanks" />
+     <Folder Include="Assets/Wwise/Documentation/AppleCommon/en" />
      <Folder Include="Assets/TextMesh Pro/Resources/Sprite Assets" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+     <None Include="Assets/Wwise/MonoBehaviour/package.json" />
      <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
      <Folder Include="Assets/Images" />
      <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
@@ -117,17 +122,25 @@
      <Folder Include="Assets/Scripts/Levels" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
      <Folder Include="Assets/TextMesh Pro/Resources" />
+     <Folder Include="Assets/Wwise/Documentation/AppleCommon/ja" />
+     <Folder Include="Assets/Wwise/Documentation/Windows" />
      <Folder Include="Assets/Models/Terrain" />
+     <Folder Include="Assets/Wwise/Gizmos" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
      <Folder Include="Assets/Prefabs/Terrain" />
      <Folder Include="Assets/Materials/Enemies" />
+     <Folder Include="Assets/Wwise/MonoBehaviour" />
      <Folder Include="Assets/Input" />
      <Folder Include="Assets/TextMesh Pro" />
+     <Folder Include="Assets/Wwise/Documentation" />
+     <Folder Include="Assets/Wwise/Documentation/Windows/zh" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Resources" />
+     <None Include="Assets/WwiseSettings.xml" />
      <Folder Include="Assets/Models/Enemies" />
      <Folder Include="Assets/Prefabs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <Folder Include="Assets/Wwise/API" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Materials" />
@@ -139,26 +152,39 @@
      <Folder Include="Assets/Textures" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts" />
+     <Folder Include="Assets/Wwise/Documentation/AppleCommon/zh" />
+     <Folder Include="Assets/Wwise" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+     <None Include="Assets/Wwise/Version.txt" />
      <Folder Include="Assets/TextMesh Pro/Shaders" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Resources/Sprite Assets" />
      <Folder Include="Assets/TextMesh Pro/Resources/Style Sheets" />
      <Folder Include="Assets/Prefabs/Enemies" />
      <Folder Include="Assets/TextMesh Pro/Fonts" />
+     <Folder Include="Assets/Wwise/ScriptableObjects" />
      <Folder Include="Assets/Scripts/Enemy" />
      <Folder Include="Assets/UI Toolkit" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
      <Folder Include="Assets/Materials" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Prefabs" />
+     <Folder Include="Assets/StreamingAssets" />
+     <Folder Include="Assets/StreamingAssets/Audio" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Scenes" />
+     <Folder Include="Assets/Wwise/Documentation/Windows/ja" />
+     <Folder Include="Assets/Wwise/Documentation/Windows/ko" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets/Wwise/LauncherInfo.json" />
      <Folder Include="Assets/Models" />
+     <None Include="Assets/StreamingAssets/desc.txt" />
+     <Folder Include="Assets/Wwise/Timeline" />
      <Folder Include="Assets/UI Toolkit/UnityThemes" />
      <Folder Include="Assets/Materials/Terrain" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets/Wwise/API/package.json" />
      <Folder Include="Assets/Prefabs/Waves" />
      <Folder Include="Assets/Polybrush Data/Color Palette" />
+     <None Include="Assets/Wwise/Timeline/package.json" />
      <Folder Include="Assets/Scenes" />
      <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Textures" />
@@ -168,7 +194,9 @@
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials" />
      <Folder Include="Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets" />
      <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
+     <Folder Include="Assets/Wwise/Documentation/AppleCommon" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+     <Folder Include="Assets/Wwise/Documentation/AppleCommon/ko" />
      <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -413,11 +441,11 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-     </Reference>
      <Reference Include="ReportGeneratorMerged">
      <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.5f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -791,9 +819,6 @@
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
@@ -805,9 +830,6 @@
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
      <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
      <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -839,17 +861,11 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Polybrush.Editor">
      <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Polybrush">
      <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
@@ -860,8 +876,52 @@
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+     <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>/Users/sebastian/Documents/FH/SEM4/CCL/InfestationUnleashed/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.Editor.csproj">
+      <Project>{20fff090-0dc4-baec-70d4-a299ad7dee53}</Project>
+      <Name>AK.Wwise.Unity.MonoBehaviour.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.Timeline.csproj">
+      <Project>{4fbd7218-7fa4-6f79-0a38-e9a012058b40}</Project>
+      <Name>AK.Wwise.Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.API.WwiseTypes.csproj">
+      <Project>{71853468-d5b9-08c7-533a-daa7efd7c17f}</Project>
+      <Name>AK.Wwise.Unity.API.WwiseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.API.csproj">
+      <Project>{6a550d55-e8e2-4643-d9d3-29576eee7f1e}</Project>
+      <Name>AK.Wwise.Unity.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.Timeline.Editor.csproj">
+      <Project>{142d0987-8a8d-adb7-9b76-0fb78eb5047b}</Project>
+      <Name>AK.Wwise.Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.API.Editor.csproj">
+      <Project>{8b92d24a-a161-6b25-ac44-bb9c0217620a}</Project>
+      <Name>AK.Wwise.Unity.API.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="AK.Wwise.Unity.MonoBehaviour.csproj">
+      <Project>{cf8be980-c763-300a-1c10-b55a16fba39e}</Project>
+      <Name>AK.Wwise.Unity.MonoBehaviour</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ak.Wwise.Api.WAAPI.csproj">
+      <Project>{6180dfc8-187c-4e0a-5560-ce4154ff2926}</Project>
+      <Name>Ak.Wwise.Api.WAAPI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
