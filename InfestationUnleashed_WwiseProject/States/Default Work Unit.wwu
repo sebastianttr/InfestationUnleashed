@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9BBEEC71-0162-4BD0-8EFA-CEC128AE0EB1}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{9BBEEC71-0162-4BD0-8EFA-CEC128AE0EB1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9BBEEC71-0162-4BD0-8EFA-CEC128AE0EB1}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="ambient_states" ID="{C5BA0FD7-1920-45EB-8294-79FA6CE57095}">
+					<ChildrenList>
+						<State Name="None" ID="{2EA98E5F-E8F8-4751-AD4B-84E01C4EC94E}"/>
+						<State Name="final" ID="{1556FA88-12F0-40E6-9887-6C868408D7EE}"/>
+						<State Name="outdoor" ID="{CFF3AD97-FAA9-4299-8931-EA511A591EF8}"/>
+						<State Name="indoor" ID="{ACBBDEDB-CBA6-4401-9566-3EDFEF7B4CAF}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="footsteps_states" ID="{56DE4064-C2EF-4603-B7F0-C9B2B61AA1E5}">
+					<ChildrenList>
+						<State Name="None" ID="{6965A5FD-040D-45CA-9213-AFA16EE41780}"/>
+						<State Name="gras" ID="{1DC007CA-168A-46D2-A90D-ABB6B71998F6}"/>
+						<State Name="indoor" ID="{5611A49B-098E-43E8-868D-F214E8FA981B}"/>
+						<State Name="street" ID="{661EE08A-8C8A-41F0-8D7C-1FA5AFD2ED11}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

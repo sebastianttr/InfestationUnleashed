@@ -2,14 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6efd450a-fe07-44b4-9c71-e01655175362" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Companion.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Companion/CompanionAttack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Companion/CompanionAttack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Companion/CompanionBullet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Companion/CompanionBullet.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InfestationUnleashed/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InfestationUnleashed/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/glass.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Companion.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Companion.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/Companion.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Companion.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Companion.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Companion.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Enemies/EnemyRat_0.1.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models/Enemies/EnemyRat_0.1.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Companion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Companion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Companion.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Companion.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrain/Fence.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Terrain/Fence.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrain/WallTiles Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Terrain/WallTiles Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrain/WallTilesCorner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Terrain/WallTilesCorner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Terrain/streetlamp Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Terrain/streetlamp Variant.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Companion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Companion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Companion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Companion/Companion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Companion.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Companion/Companion.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pathfinding/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pathfinding/Grid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pathfinding/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pathfinding/Unit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UserInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UserInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkConvolutionReverb.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkConvolutionReverb.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkFlanger.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkFlanger.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkGuitarDistortion.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkGuitarDistortion.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkHarmonizer.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkHarmonizer.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkPitchShifter.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkPitchShifter.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkRecorder.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkRecorder.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkReflect.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkReflect.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkRoomVerb.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkRoomVerb.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedAir.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedAir.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedGrain.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedGrain.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedImpact.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSoundSeedImpact.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkStereoDelay.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkStereoDelay.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSynthOne.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkSynthOne.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkTimeStretch.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkTimeStretch.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkTremolo.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAkTremolo.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAuro.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libAuro.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMasteringSuite.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMasteringSuite.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMcDSP.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libMcDSP.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libResonanceAudio.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libResonanceAudio.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libiZotope.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/DSP/libiZotope.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkSoundEngine.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkSoundEngine.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkSoundEngine.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/Profile/AkSoundEngine.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/Release/AkSoundEngine.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/Plugins/Mac/Release/AkSoundEngine.bundle.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/Actor-Mixer Hierarchy/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/Actor-Mixer Hierarchy/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/Control Surface Sessions/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/Control Surface Sessions/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/Effects/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/Effects/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/Events/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/Events/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/InfestationUnleashed_WwiseProject.crossover.validationcache" beforeDir="false" afterPath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/InfestationUnleashed_WwiseProject.crossover.validationcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/InfestationUnleashed_WwiseProject.crossover.wsettings" beforeDir="false" afterPath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/InfestationUnleashed_WwiseProject.crossover.wsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/SoundBanks/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/SoundBanks/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/States/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/InfestationUnleashed_WwiseProject/States/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +81,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UserInterface.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../EbCRD/Part2/Assignment1_Unity/Assignment1/Assets/Scripts/Shooter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unity_Project_GA_EbCRD/Tatar_Sebastian-Florin/Assets/Scripts/DataStorage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/10cd1797aab44ffa84f234c1998893ad157800/f9/ecdadb48/Object.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,7 +99,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -107,6 +165,10 @@
       <workItem from="1686903873358" duration="6731000" />
       <workItem from="1687161271293" duration="12121000" />
       <workItem from="1687247910062" duration="12794000" />
+      <workItem from="1687376864493" duration="1486000" />
+      <workItem from="1687419401548" duration="11228000" />
+      <workItem from="1687441400780" duration="3483000" />
+      <workItem from="1687446022776" duration="4227000" />
     </task>
     <task id="LOCAL-00001" summary="Game Stats and more Components">
       <created>1686665774524</created>
@@ -155,5 +217,89 @@
     <MESSAGE value="Logs removed" />
     <MESSAGE value="Ignore Temp folder" />
     <option name="LAST_COMMIT_MESSAGE" value="Ignore Temp folder" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnter.cs</url>
+          <line>23</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnter.cs" initialLine="23" containingFunctionPresentation="method 'OnTriggerEnter'">
+            <startOffsets>
+              <option value="1220" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1315" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnter.cs</url>
+          <line>24</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Wwise/MonoBehaviour/Runtime/AkTriggerEnter.cs" initialLine="24" containingFunctionPresentation="method 'OnTriggerEnter'">
+            <startOffsets>
+              <option value="1319" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1356" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs</url>
+          <line>38</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs" initialLine="38" containingFunctionPresentation="method 'SetValue'">
+            <startOffsets>
+              <option value="1711" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1712" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs</url>
+          <line>37</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs" initialLine="37" containingFunctionPresentation="method 'SetValue'">
+            <startOffsets>
+              <option value="1693" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1707" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs</url>
+          <line>39</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs" initialLine="39" containingFunctionPresentation="method 'SetValue'">
+            <startOffsets>
+              <option value="1717" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1779" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs</url>
+          <line>40</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Wwise/API/Runtime/WwiseTypes/WwiseTypes/AkWwiseSwitch.cs" initialLine="40" containingFunctionPresentation="method 'SetValue'">
+            <startOffsets>
+              <option value="1784" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1799" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

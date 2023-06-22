@@ -15,7 +15,6 @@ public class UserInterface : MonoBehaviour
     void Update()
     {
         float healthPercent = DataStorage.instance.health / 100f;
-
         healthCircle.rectTransform.localScale = new Vector3(1, healthPercent, 1);
     }
 }

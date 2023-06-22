@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5CF0204E-1982-4D9B-AB6C-DF9BE2909C2E}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{5CF0204E-1982-4D9B-AB6C-DF9BE2909C2E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5CF0204E-1982-4D9B-AB6C-DF9BE2909C2E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footsteps" ID="{ACDA58BE-2086-489E-B031-F56D64F754C1}">
+					<ChildrenList>
+						<Action Name="" ID="{1BED1A11-3DE5-4289-8DA9-F819D15FAE2C}" ShortID="735541230">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{F38D6022-30EF-47BB-9FCC-CFB1C9BE1CFB}" WorkUnitID="{5FDBB503-DC3D-4917-99EE-F4737A15DEF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_flamethrower" ID="{CEBB4CB1-181A-4C1F-8397-C39CDBA2F8DE}">
+					<ChildrenList>
+						<Action Name="" ID="{C0DE48DC-ACD5-4BA1-8A44-5366FFD9D713}" ShortID="256524502">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="flamethrower" ID="{65A9AFBB-C847-40F5-B17D-CCD877830D51}" WorkUnitID="{5FDBB503-DC3D-4917-99EE-F4737A15DEF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MouseSqueak" ID="{B699658F-C509-49FE-A8E4-A0226E994B85}">
+					<ChildrenList>
+						<Action Name="" ID="{7E6CD974-D6FC-4F8D-8861-00D7D0BE897A}" ShortID="375895305">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MouseSqueak" ID="{DFE42ABA-7A9D-4DBE-9171-142DD093AF14}" WorkUnitID="{5FDBB503-DC3D-4917-99EE-F4737A15DEF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AmbientSounds" ID="{F4C49B12-95C5-4B69-B95F-40DB67F467CE}">
+					<ChildrenList>
+						<Action Name="" ID="{A7192BF7-3367-4621-AED6-E493456DF54D}" ShortID="830192505">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AmbientSounds" ID="{D2676070-601E-4D30-896B-C5FA9EDD891D}" WorkUnitID="{5FDBB503-DC3D-4917-99EE-F4737A15DEF3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

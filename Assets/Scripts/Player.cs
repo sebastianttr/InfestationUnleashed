@@ -10,9 +10,8 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-
-
     [SerializeField] private float rotationSpeed = 40f;
+    [SerializeField] private Animator _animator;
 
     [SerializeField] 
     private GameObject cursorObject;
@@ -31,12 +30,28 @@ public class Player : MonoBehaviour
     
     private Vector3 moveBy;
     private bool jump;
+    
+    private Vector3 _lastPosition;
+    private uint playEventId;
+    private bool isPlaying;
+
+    private Dictionary<uint, String> statesDict = new Dictionary<uint, string>()
+    {
+        { 0, "" },
+        {906520814,	"gras"		}	,
+        {4142189312,	"street"	},
+        {144697359	,"outdoor"	}	,
+        {340398852,	"indoor"	},		
+        {565529991,	"final"		}	,
+        { 748895195, "None"	},	
+    };
 
     private void Awake()
     {
         _rigidBody = GetComponent<Rigidbody>();
         previousPosition = transform.position;
         cameraStartPosition = cameraParentObject.transform.position;
+        AkSoundEngine.SetState("footsteps_states", "outdoor");
     }
 
     void OnJumping(InputValue inputValue)
@@ -46,45 +61,44 @@ public class Player : MonoBehaviour
         jump = true;
     }
 
-    /*void ExecuteMovement()
-    {
-        if (_movementType == MovementType.TransformBased)
-        {
-            previousPosition = _rigidBody.position;
-            //transform.position += new Vector3(moveBy.x, moveBy.z, moveBy.y) * speed;
-            //transform.Translate(moveBy * (speed * Time.deltaTime));
-
-            Vector3 moveByFixed = new Vector3(moveBy.x, moveBy.z, moveBy.y);
-            
-            _rigidBody.MovePosition(transform.position + moveByFixed * moveByFixed.magnitude * speed * Time.deltaTime);
-        }
-        else if (_movementType == MovementType.PhysicalBased)
-        {
-            Rigidbody rigidBody = GetComponent<Rigidbody>();
-            
-            Vector3 rotatedVector = Camera.main.transform.rotation * new Vector3(moveBy.x, jump ? 100 : 0, moveBy.y);
-            rotatedVector = new Vector3(rotatedVector.x, rotatedVector.y, rotatedVector.z );
-            
-            rigidBody.AddForce(rotatedVector * 3, ForceMode.Force);
-        } 
-        
-    }*/
-
     private void FixedUpdate()
     {
         //ExecuteMovement();
         GetMouseCursorWorldPosition();
         //MoveCamera();
+        AkPlayFootsteps();
 
-        
         // always set it to false
         jump = false;
     }
-    
 
-    private void OnTriggerEnter(Collider other)
+    private void AkPlayFootsteps()
     {
-        Debug.Log("Colliding with object.");
+        float velocity = (transform.position - _lastPosition).magnitude;
+
+        if (velocity > 0.005f * 0.005f)
+        {
+            // Get the play event id; play sound event
+            if (!isPlaying)
+            {
+                Debug.Log("Playing footsteps");
+                AkSoundEngine.GetState("footsteps_states", out var ee);
+                Debug.Log(statesDict[ee]);
+                playEventId = AkSoundEngine.PostEvent("Play_Footsteps",gameObject);
+                isPlaying = true;
+            }
+        }
+        else 
+        {
+            // stop sound by sound id
+            if (isPlaying)
+            {
+                AkSoundEngine.StopPlayingID(playEventId);
+                isPlaying = false;
+            }
+        }
+        
+        _lastPosition = transform.position;
     }
 
     private void MoveCamera()
@@ -123,5 +137,7 @@ public class Player : MonoBehaviour
     {
         Vector2 newPos = inputValue.Get<Vector2>();
         moveBy = newPos;
+
+        
     }
 }

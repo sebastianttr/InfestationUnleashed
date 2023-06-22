@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/sebastian/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/FH/SEM4/CCL/InfestationUnleashed/InfestationUnleashed_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/sebastian/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/FH/SEM4/CCL/InfestationUnleashed/InfestationUnleashed_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/sebastian/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/FH/SEM4/CCL/InfestationUnleashed/InfestationUnleashed_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/sebastian/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/FH/SEM4/CCL/InfestationUnleashed/InfestationUnleashed_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="326621952">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4072029455" Language="SFX" Hash="4243784085">
+			<ObjectPath>\SoundBanks\Default Work Unit\New_SoundBank</ObjectPath>
+			<ShortName>New_SoundBank</ShortName>
+			<Path>New_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1698067634" Name="Play_AmbientSounds" ObjectPath="\Events\Default Work Unit\Play_AmbientSounds" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="288041387" Language="SFX">
+							<ShortName>ambient_lab_3.wav</ShortName>
+							<Path>SFX/ambient_lab_3_A9BE0887.wem</Path>
+						</File>
+						<File Id="509624467" Language="SFX">
+							<ShortName>ambient_outside.wav</ShortName>
+							<Path>SFX/ambient_outside_10C4C929.wem</Path>
+						</File>
+						<File Id="1000467511" Language="SFX">
+							<ShortName>ambient_lab_1_2.wav</ShortName>
+							<Path>SFX/ambient_lab_1_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{CFF3AD97-FAA9-4299-8931-EA511A591EF8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{1556FA88-12F0-40E6-9887-6C868408D7EE}">
+							<Media>
+								<File Id="288041387"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CFF3AD97-FAA9-4299-8931-EA511A591EF8}">
+							<Media>
+								<File Id="509624467"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{ACBBDEDB-CBA6-4401-9566-3EDFEF7B4CAF}">
+							<Media>
+								<File Id="1000467511"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2844775840" Name="Play_flamethrower" ObjectPath="\Events\Default Work Unit\Play_flamethrower" DurationType="OneShot" DurationMin="13.516599" DurationMax="13.516599">
+					<IncludedMemoryFiles>
+						<File Id="326717361" Language="SFX">
+							<ShortName>flamethrower.wav</ShortName>
+							<Path>SFX/flamethrower_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Footsteps" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="293204671" Language="SFX">
+							<ShortName>footsteps_road.wav</ShortName>
+							<Path>SFX/footsteps_road_D79FB2B7.wem</Path>
+						</File>
+						<File Id="791020978" Language="SFX">
+							<ShortName>footsteps_inside.wav</ShortName>
+							<Path>SFX/footsteps_inside_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1053760828" Language="SFX">
+							<ShortName>footsteps_gras.wav</ShortName>
+							<Path>SFX/footsteps_gras_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{661EE08A-8C8A-41F0-8D7C-1FA5AFD2ED11}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{661EE08A-8C8A-41F0-8D7C-1FA5AFD2ED11}">
+							<Media>
+								<File Id="293204671"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5611A49B-098E-43E8-868D-F214E8FA981B}">
+							<Media>
+								<File Id="791020978"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1DC007CA-168A-46D2-A90D-ABB6B71998F6}">
+							<Media>
+								<File Id="1053760828"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1612015701" Name="Play_MouseSqueak" ObjectPath="\Events\Default Work Unit\Play_MouseSqueak" MaxAttenuation="100." DurationType="OneShot" DurationMin="3.536525" DurationMax="4.666472">
+					<IncludedMemoryFiles>
+						<File Id="68957393" Language="SFX">
+							<ShortName>mouse_squeaks.wav</ShortName>
+							<Path>SFX/mouse_squeaks_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="2064210955" Name="footsteps_states" ObjectPath="\States\Default Work Unit\footsteps_states" GUID="{56DE4064-C2EF-4603-B7F0-C9B2B61AA1E5}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\footsteps_states\None" GUID="{6965A5FD-040D-45CA-9213-AFA16EE41780}"/>
+						<State Id="906520814" Name="gras" ObjectPath="\States\Default Work Unit\footsteps_states\gras" GUID="{1DC007CA-168A-46D2-A90D-ABB6B71998F6}"/>
+						<State Id="340398852" Name="indoor" ObjectPath="\States\Default Work Unit\footsteps_states\indoor" GUID="{5611A49B-098E-43E8-868D-F214E8FA981B}"/>
+						<State Id="4142189312" Name="street" ObjectPath="\States\Default Work Unit\footsteps_states\street" GUID="{661EE08A-8C8A-41F0-8D7C-1FA5AFD2ED11}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3959595204" Name="ambient_states" ObjectPath="\States\Default Work Unit\ambient_states" GUID="{C5BA0FD7-1920-45EB-8294-79FA6CE57095}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\ambient_states\None" GUID="{2EA98E5F-E8F8-4751-AD4B-84E01C4EC94E}"/>
+						<State Id="565529991" Name="final" ObjectPath="\States\Default Work Unit\ambient_states\final" GUID="{1556FA88-12F0-40E6-9887-6C868408D7EE}"/>
+						<State Id="144697359" Name="outdoor" ObjectPath="\States\Default Work Unit\ambient_states\outdoor" GUID="{CFF3AD97-FAA9-4299-8931-EA511A591EF8}"/>
+						<State Id="340398852" Name="indoor" ObjectPath="\States\Default Work Unit\ambient_states\indoor" GUID="{ACBBDEDB-CBA6-4401-9566-3EDFEF7B4CAF}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

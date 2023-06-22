@@ -1,6 +1,432 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{5FDBB503-DC3D-4917-99EE-F4737A15DEF3}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{5FDBB503-DC3D-4917-99EE-F4737A15DEF3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{5FDBB503-DC3D-4917-99EE-F4737A15DEF3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Footsteps" ID="{F38D6022-30EF-47BB-9FCC-CFB1C9BE1CFB}" ShortID="491928617">
+					<PropertyList>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="street" ID="{661EE08A-8C8A-41F0-8D7C-1FA5AFD2ED11}" WorkUnitID="{9BBEEC71-0162-4BD0-8EFA-CEC128AE0EB1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="footsteps_states" ID="{56DE4064-C2EF-4603-B7F0-C9B2B61AA1E5}" WorkUnitID="{9BBEEC71-0162-4BD0-8EFA-CEC128AE0EB1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="footsteps_gras" ID="{92CFBE0E-071B-421E-B75A-6568CBEEEDBB}" ShortID="572208184">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+									<ObjectRef Name="New_Wwise_Time_Stretch" ID="{8C0A9238-5C62-48E9-B91D-0882F580392B}" WorkUnitID="{C619F3F8-8492-4194-BCD4-A28F62E366D4}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps_gras" ID="{13552148-3FE5-4C58-AA81-F984AF949A91}">
+									<Language>SFX</Language>
+									<AudioFile>footsteps_gras.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1053760828"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps_gras" ID="{13552148-3FE5-4C58-AA81-F984AF949A91}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footsteps_inside" ID="{310257E5-4D78-4CE8-8801-CC8A43E5A086}" ShortID="808025919">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps_inside" ID="{4E48B703-5F1C-493B-9189-50C53046B79D}">
+									<Language>SFX</Language>
+									<AudioFile>footsteps_inside.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="791020978"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps_inside" ID="{4E48B703-5F1C-493B-9189-50C53046B79D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="footsteps_road" ID="{E317F288-BBA2-42A3-843A-C0ED23330618}" ShortID="521293381">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="footsteps_road" ID="{E5AF9B05-510D-45FA-A2FC-84CFC7EAC935}">
+									<Language>SFX</Language>
+									<AudioFile>footsteps_road.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="293204671"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="footsteps_road" ID="{E5AF9B05-510D-45FA-A2FC-84CFC7EAC935}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="footsteps_gras" ID="{92CFBE0E-071B-421E-B75A-6568CBEEEDBB}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="footsteps_road" ID="{E317F288-BBA2-42A3-843A-C0ED23330618}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="footsteps_inside" ID="{310257E5-4D78-4CE8-8801-CC8A43E5A086}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="street" ID="{661EE08A-8C8A-41F0-8D7C-1FA5AFD2ED11}"/>
+								<ItemList>
+									<ItemRef Name="footsteps_road" ID="{E317F288-BBA2-42A3-843A-C0ED23330618}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="indoor" ID="{5611A49B-098E-43E8-868D-F214E8FA981B}"/>
+								<ItemList>
+									<ItemRef Name="footsteps_inside" ID="{310257E5-4D78-4CE8-8801-CC8A43E5A086}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="gras" ID="{1DC007CA-168A-46D2-A90D-ABB6B71998F6}"/>
+								<ItemList>
+									<ItemRef Name="footsteps_gras" ID="{92CFBE0E-071B-421E-B75A-6568CBEEEDBB}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<Sound Name="flamethrower" ID="{65A9AFBB-C847-40F5-B17D-CCD877830D51}" ShortID="581172479">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="flamethrower" ID="{95ECE0C4-F54E-4BEB-A3D2-F3B62D3C6FDC}">
+							<Language>SFX</Language>
+							<AudioFile>flamethrower.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="326717361"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="flamethrower" ID="{95ECE0C4-F54E-4BEB-A3D2-F3B62D3C6FDC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="MouseSqueak" ID="{DFE42ABA-7A9D-4DBE-9171-142DD093AF14}" ShortID="131332157">
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{368BC6F2-33B7-4E88-BCBB-CDCC81E80EA4}" ShortID="225435349">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{C95463B3-DD87-4630-935E-569B7FAE4EC4}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="mouse_squeaks" ID="{C0BD63C9-B345-4DAA-B7A2-D90C7B01D638}" ShortID="538756387">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-250</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mouse_squeaks" ID="{FCA2CC48-2EFC-4C59-B248-A29BA51FC39B}">
+									<Language>SFX</Language>
+									<AudioFile>mouse_squeaks.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="68957393"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="mouse_squeaks" ID="{FCA2CC48-2EFC-4C59-B248-A29BA51FC39B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mouse_squeaks_01" ID="{15803A87-E493-47C5-A906-D45B14E7BC10}" ShortID="502554739">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>230</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mouse_squeaks" ID="{C874C5E2-212A-4F75-B864-3D65A5857EBA}">
+									<Language>SFX</Language>
+									<AudioFile>mouse_squeaks.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="68957393"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="mouse_squeaks" ID="{C874C5E2-212A-4F75-B864-3D65A5857EBA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+				<SwitchContainer Name="AmbientSounds" ID="{D2676070-601E-4D30-896B-C5FA9EDD891D}" ShortID="599439755">
+					<PropertyList>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="outdoor" ID="{CFF3AD97-FAA9-4299-8931-EA511A591EF8}" WorkUnitID="{9BBEEC71-0162-4BD0-8EFA-CEC128AE0EB1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="ambient_states" ID="{C5BA0FD7-1920-45EB-8294-79FA6CE57095}" WorkUnitID="{9BBEEC71-0162-4BD0-8EFA-CEC128AE0EB1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="ambient_outside" ID="{6AD158B8-A671-4FBF-BD67-1B6B2E494A27}" ShortID="286783775">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambient_outside" ID="{C17D8E90-33C8-4218-B5A2-04E1BF98D8DB}">
+									<Language>SFX</Language>
+									<AudioFile>ambient_outside.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="509624467"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ambient_outside" ID="{C17D8E90-33C8-4218-B5A2-04E1BF98D8DB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ambient_lab_1_2" ID="{6614F291-F8F2-4B85-B67F-A9B537C66D1F}" ShortID="504827587">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambient_lab_1_2" ID="{64CEB0F5-46DE-41B2-8070-A59A0EF82818}">
+									<Language>SFX</Language>
+									<AudioFile>ambient_lab_1_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1000467511"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ambient_lab_1_2" ID="{64CEB0F5-46DE-41B2-8070-A59A0EF82818}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ambient_lab_3" ID="{407FD9F1-312F-4D29-8573-FA6FF5BA2B4D}" ShortID="546478643">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73D8C3BD-1CF6-4DB1-9D09-5E28ECDD61A2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9E2AD566-148A-4F28-BEC2-9D4EDAF57392}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambient_lab_3" ID="{71388E99-E406-4172-A326-244C4E344542}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.60518142239914"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ambient_lab_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="288041387"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ambient_lab_3" ID="{71388E99-E406-4172-A326-244C4E344542}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="ambient_lab_1_2" ID="{6614F291-F8F2-4B85-B67F-A9B537C66D1F}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="ambient_outside" ID="{6AD158B8-A671-4FBF-BD67-1B6B2E494A27}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="ambient_lab_3" ID="{407FD9F1-312F-4D29-8573-FA6FF5BA2B4D}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="final" ID="{1556FA88-12F0-40E6-9887-6C868408D7EE}"/>
+								<ItemList>
+									<ItemRef Name="ambient_lab_3" ID="{407FD9F1-312F-4D29-8573-FA6FF5BA2B4D}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="outdoor" ID="{CFF3AD97-FAA9-4299-8931-EA511A591EF8}"/>
+								<ItemList>
+									<ItemRef Name="ambient_outside" ID="{6AD158B8-A671-4FBF-BD67-1B6B2E494A27}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="indoor" ID="{ACBBDEDB-CBA6-4401-9566-3EDFEF7B4CAF}"/>
+								<ItemList>
+									<ItemRef Name="ambient_lab_1_2" ID="{6614F291-F8F2-4B85-B67F-A9B537C66D1F}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

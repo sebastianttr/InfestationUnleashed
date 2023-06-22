@@ -21,7 +21,7 @@ public class AkTriggerEnter : AkTriggerBase
 
 	private void OnTriggerEnter(UnityEngine.Collider in_other)
 	{
-		if (triggerDelegate != null && (triggerObject == null || triggerObject == in_other.gameObject))
+			if (triggerDelegate != null && (triggerObject == null || triggerObject == in_other.gameObject))
 			triggerDelegate(in_other.gameObject);
 	}
 }

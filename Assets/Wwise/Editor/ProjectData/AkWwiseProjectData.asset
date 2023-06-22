@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 2e10d47e72baa34eb57fe8acca3c111b
     GuidInternal: 
-    m_lastTime: -8585142660575467243
-    List: []
+    m_lastTime: -8585141854986291550
+    List:
+    - name: New_SoundBank
+      guid: eb6c716ef281c74393cd3afb1fcc29ac
+      id: 4072029455
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2e10d47e72baa34eb57fe8acca3c111b
+      - ElementName: New_SoundBank
+        ObjectType: 7
+        guid: eb6c716ef281c74393cd3afb1fcc29ac
+      Path: SoundBanks/Default Work Unit/New_SoundBank
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,76 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 4e20f05c82199b4dab6cdf9be2909c2e
     GuidInternal: 
-    m_lastTime: -8585142660575548811
-    List: []
+    m_lastTime: -8585141854987456206
+    List:
+    - name: Play_AmbientSounds
+      guid: 129bc4f4c595694bb95f40db67f467ce
+      id: 1698067634
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4e20f05c82199b4dab6cdf9be2909c2e
+      - ElementName: Play_AmbientSounds
+        ObjectType: 3
+        guid: 129bc4f4c595694bb95f40db67f467ce
+      Path: Events/Default Work Unit/Play_AmbientSounds
+      maxAttenuation: 0
+      maxDuration: 68.667076
+      minDuration: 21.162415
+    - name: Play_flamethrower
+      guid: b14cbbce1a181f4c8397c39cdba2f8de
+      id: 2844775840
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4e20f05c82199b4dab6cdf9be2909c2e
+      - ElementName: Play_flamethrower
+        ObjectType: 3
+        guid: b14cbbce1a181f4c8397c39cdba2f8de
+      Path: Events/Default Work Unit/Play_flamethrower
+      maxAttenuation: 0
+      maxDuration: 13.516599
+      minDuration: 13.516599
+    - name: Play_Footsteps
+      guid: be58daac86209e48b031f56d64f754c1
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4e20f05c82199b4dab6cdf9be2909c2e
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+        guid: be58daac86209e48b031f56d64f754c1
+      Path: Events/Default Work Unit/Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_MouseSqueak
+      guid: 8f6599b609c5fe49a8e4a0226e994b85
+      id: 1612015701
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4e20f05c82199b4dab6cdf9be2909c2e
+      - ElementName: Play_MouseSqueak
+        ObjectType: 3
+        guid: 8f6599b609c5fe49a8e4a0226e994b85
+      Path: Events/Default Work Unit/Play_MouseSqueak
+      maxAttenuation: 100
+      maxDuration: 4.666472
+      minDuration: 3.536525
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -108,8 +190,172 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 71ecbe9b6201d04b8efacec128ae0eb1
     GuidInternal: 
-    m_lastTime: -8585142660575493666
-    List: []
+    m_lastTime: -8585141818781267708
+    List:
+    - name: ambient_states
+      guid: d70fbac52019eb45829479fa6ce57095
+      id: 3959595204
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 71ecbe9b6201d04b8efacec128ae0eb1
+      - ElementName: ambient_states
+        ObjectType: 9
+        guid: d70fbac52019eb45829479fa6ce57095
+      Path: States/Default Work Unit/ambient_states
+      values:
+      - name: final
+        guid: 88fa5615f012e64098876c868408d7ee
+        id: 565529991
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 71ecbe9b6201d04b8efacec128ae0eb1
+        - ElementName: ambient_states
+          ObjectType: 9
+          guid: d70fbac52019eb45829479fa6ce57095
+        - ElementName: final
+          ObjectType: 8
+          guid: 88fa5615f012e64098876c868408d7ee
+      - name: indoor
+        guid: dbdebbaca6cb014495663edfef7b4caf
+        id: 340398852
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 71ecbe9b6201d04b8efacec128ae0eb1
+        - ElementName: ambient_states
+          ObjectType: 9
+          guid: d70fbac52019eb45829479fa6ce57095
+        - ElementName: indoor
+          ObjectType: 8
+          guid: dbdebbaca6cb014495663edfef7b4caf
+      - name: None
+        guid: 5f8ea92ef8e85147ad4b84e01c4ec94e
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 71ecbe9b6201d04b8efacec128ae0eb1
+        - ElementName: ambient_states
+          ObjectType: 9
+          guid: d70fbac52019eb45829479fa6ce57095
+        - ElementName: None
+          ObjectType: 8
+          guid: 5f8ea92ef8e85147ad4b84e01c4ec94e
+      - name: outdoor
+        guid: 97adf3cfa9fa99428931ea511a591ef8
+        id: 144697359
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 71ecbe9b6201d04b8efacec128ae0eb1
+        - ElementName: ambient_states
+          ObjectType: 9
+          guid: d70fbac52019eb45829479fa6ce57095
+        - ElementName: outdoor
+          ObjectType: 8
+          guid: 97adf3cfa9fa99428931ea511a591ef8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: footsteps_states
+      guid: 6440de56efc20346b7f0c9b2b61aa1e5
+      id: 2064210955
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 71ecbe9b6201d04b8efacec128ae0eb1
+      - ElementName: footsteps_states
+        ObjectType: 9
+        guid: 6440de56efc20346b7f0c9b2b61aa1e5
+      Path: States/Default Work Unit/footsteps_states
+      values:
+      - name: gras
+        guid: ca07c01d8a16d246a90dabb6b71998f6
+        id: 906520814
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 71ecbe9b6201d04b8efacec128ae0eb1
+        - ElementName: footsteps_states
+          ObjectType: 9
+          guid: 6440de56efc20346b7f0c9b2b61aa1e5
+        - ElementName: gras
+          ObjectType: 8
+          guid: ca07c01d8a16d246a90dabb6b71998f6
+      - name: indoor
+        guid: 9ba411568e09e843868df214e8fa981b
+        id: 340398852
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 71ecbe9b6201d04b8efacec128ae0eb1
+        - ElementName: footsteps_states
+          ObjectType: 9
+          guid: 6440de56efc20346b7f0c9b2b61aa1e5
+        - ElementName: indoor
+          ObjectType: 8
+          guid: 9ba411568e09e843868df214e8fa981b
+      - name: None
+        guid: fda565690d04ca459213afa16ee41780
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 71ecbe9b6201d04b8efacec128ae0eb1
+        - ElementName: footsteps_states
+          ObjectType: 9
+          guid: 6440de56efc20346b7f0c9b2b61aa1e5
+        - ElementName: None
+          ObjectType: 8
+          guid: fda565690d04ca459213afa16ee41780
+      - name: street
+        guid: 8ae01e668a8cf0418d7c1fa5afd2ed11
+        id: 4142189312
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 71ecbe9b6201d04b8efacec128ae0eb1
+        - ElementName: footsteps_states
+          ObjectType: 9
+          guid: 6440de56efc20346b7f0c9b2b61aa1e5
+        - ElementName: street
+          ObjectType: 8
+          guid: 8ae01e668a8cf0418d7c1fa5afd2ed11
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
@@ -122,7 +368,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: c48fc401306611418eff0686e7dce434
     GuidInternal: 
-    m_lastTime: -8585142660575521978
+    m_lastTime: -8585141818781356038
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
@@ -139,8 +385,8 @@ MonoBehaviour:
     m_lastTime: -8585142660575288579
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
-  AutoSyncSelection: 0
+  ExpandedWaapiItemIds: 010000000500000006000000070000000b0000000c0000000d0000000e0000000f000000100000001100000025000000
+  AutoSyncSelection: 1
   autoPopulateEnabled: 1
   currentDataSource: 0
   CurrentPluginConfig: 

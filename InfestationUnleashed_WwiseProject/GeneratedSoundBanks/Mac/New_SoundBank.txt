@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1612015701	Play_MouseSqueak			\Default Work Unit\Play_MouseSqueak	
+	1698067634	Play_AmbientSounds			\Default Work Unit\Play_AmbientSounds	
+	2844775840	Play_flamethrower			\Default Work Unit\Play_flamethrower	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2064210955	footsteps_states			\Default Work Unit\footsteps_states	
+	3959595204	ambient_states			\Default Work Unit\ambient_states	
+
+State	ID	Name	State Group			Notes
+	340398852	indoor	footsteps_states			
+	748895195	None	footsteps_states			
+	906520814	gras	footsteps_states			
+	4142189312	street	footsteps_states			
+	144697359	outdoor	ambient_states			
+	340398852	indoor	ambient_states			
+	565529991	final	ambient_states			
+	748895195	None	ambient_states			
+
+Effect plug-ins	ID	Name	Type				Notes
+	287224143	New_Wwise_Time_Stretch	Wwise Time Stretch			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	68957393	mouse_squeaks	Y:\Documents\FH\SEM4\CCL\InfestationUnleashed\InfestationUnleashed_WwiseProject\.cache\Mac\SFX\mouse_squeaks_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MouseSqueak\mouse_squeaks		712544
+	288041387	ambient_lab_3	Y:\Documents\FH\SEM4\CCL\InfestationUnleashed\InfestationUnleashed_WwiseProject\.cache\Mac\SFX\ambient_lab_3_A9BE0887.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientSounds\ambient_lab_3		1866588
+	293204671	footsteps_road	Y:\Documents\FH\SEM4\CCL\InfestationUnleashed\InfestationUnleashed_WwiseProject\.cache\Mac\SFX\footsteps_road_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps_road		316536
+	326717361	flamethrower	Y:\Documents\FH\SEM4\CCL\InfestationUnleashed\InfestationUnleashed_WwiseProject\.cache\Mac\SFX\flamethrower_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\flamethrower		1192228
+	509624467	ambient_outside	Y:\Documents\FH\SEM4\CCL\InfestationUnleashed\InfestationUnleashed_WwiseProject\.cache\Mac\SFX\ambient_outside_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientSounds\ambient_outside		12112936
+	791020978	footsteps_inside	Y:\Documents\FH\SEM4\CCL\InfestationUnleashed\InfestationUnleashed_WwiseProject\.cache\Mac\SFX\footsteps_inside_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps_inside		630364
+	1000467511	ambient_lab_1_2	Y:\Documents\FH\SEM4\CCL\InfestationUnleashed\InfestationUnleashed_WwiseProject\.cache\Mac\SFX\ambient_lab_1_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AmbientSounds\ambient_lab_1_2		5499120
+	1053760828	footsteps_gras	Y:\Documents\FH\SEM4\CCL\InfestationUnleashed\InfestationUnleashed_WwiseProject\.cache\Mac\SFX\footsteps_gras_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\footsteps_gras		335888
+

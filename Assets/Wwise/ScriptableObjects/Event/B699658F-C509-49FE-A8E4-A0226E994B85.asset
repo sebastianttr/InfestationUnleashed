@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a11fd8aea9b4a07a02f1f7126d2c13, type: 3}
+  m_Name: B699658F-C509-49FE-A8E4-A0226E994B85
+  m_EditorClassIdentifier: 
+  objectName: Play_MouseSqueak
+  id: 1612015701
+  guid: B699658F-C509-49FE-A8E4-A0226E994B85

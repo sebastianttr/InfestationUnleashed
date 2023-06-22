@@ -185,7 +185,7 @@ public class Grid : MonoBehaviour
     }
 
     // Visualize the grid and nodes in the scene view
-    private void OnDrawGizmos()
+    /*private void OnDrawGizmos()
     {
         Gizmos.DrawWireCube(transform.position, new Vector3(gridWorldSize.x, 1, gridWorldSize.y));
 
@@ -198,7 +198,7 @@ public class Grid : MonoBehaviour
                 Gizmos.DrawCube(n.worldPosition, Vector3.one * (nodeDiameter));
             }
         }
-    }
+    }*/
 
     [System.Serializable]
     public class TerrainType

@@ -1,0 +1,21 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2064210955	footsteps_states			\Default Work Unit\footsteps_states	
+	3959595204	ambient_states			\Default Work Unit\ambient_states	
+
+State	ID	Name	State Group			Notes
+	340398852	indoor	footsteps_states			
+	748895195	None	footsteps_states			
+	906520814	gras	footsteps_states			
+	4142189312	street	footsteps_states			
+	144697359	outdoor	ambient_states			
+	340398852	indoor	ambient_states			
+	565529991	final	ambient_states			
+	748895195	None	ambient_states			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

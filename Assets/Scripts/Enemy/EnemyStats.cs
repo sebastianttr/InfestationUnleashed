@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyStats : MonoBehaviour
 {
     
+   
     [field: SerializeField]
     public float enemyHealth
     {

@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7ED4102E-BA72-4EA3-B57F-E8ACCA3C111B}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{7ED4102E-BA72-4EA3-B57F-E8ACCA3C111B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7ED4102E-BA72-4EA3-B57F-E8ACCA3C111B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="New_SoundBank" ID="{6E716CEB-81F2-43C7-93CD-3AFB1FCC29AC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Footsteps" ID="{ACDA58BE-2086-489E-B031-F56D64F754C1}" WorkUnitID="{5CF0204E-1982-4D9B-AB6C-DF9BE2909C2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MouseSqueak" ID="{B699658F-C509-49FE-A8E4-A0226E994B85}" WorkUnitID="{5CF0204E-1982-4D9B-AB6C-DF9BE2909C2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_AmbientSounds" ID="{F4C49B12-95C5-4B69-B95F-40DB67F467CE}" WorkUnitID="{5CF0204E-1982-4D9B-AB6C-DF9BE2909C2E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_flamethrower" ID="{CEBB4CB1-181A-4C1F-8397-C39CDBA2F8DE}" WorkUnitID="{5CF0204E-1982-4D9B-AB6C-DF9BE2909C2E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

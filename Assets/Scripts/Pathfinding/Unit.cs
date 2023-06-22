@@ -13,12 +13,17 @@ public class Unit : MonoBehaviour
     public bool YAxisRotation = false;
 
     private Path path; // Current path for the unit to follow
+    private Rigidbody rb;
 
     private void Start()
     {
         target = GameObject.FindWithTag("Player").transform;
 
+        rb = GetComponent<Rigidbody>();
+
+
         StartCoroutine(UpdatePath()); // Start the coroutine for updating the path
+        StartCoroutine(ResetForces()); // reset forces on the units so they don't glide
     }
 
     public void OnPathFound(Vector3[] waypoints, bool pathSuccessful)
@@ -107,11 +112,22 @@ public class Unit : MonoBehaviour
         }
     }
 
+    private IEnumerator ResetForces()
+    {
+        while (true)
+        {
+            rb.velocity = Vector3.zero;
+
+            yield return new WaitForSeconds(3);
+        }
+    }
+
+
     public void OnDrawGizmos()
     {
         if (path != null)
         {
-            path.DrawWithGizmos(); // Draw gizmos for the path visualization
+            //path.DrawWithGizmos(); // Draw gizmos for the path visualization
         }
     }
 }

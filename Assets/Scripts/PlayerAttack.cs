@@ -9,6 +9,9 @@ public class PlayerAttack : MonoBehaviour
     private bool shooting = false;
 
     [SerializeField] private int damageModifierTimeMs = 250;
+    [SerializeField] private Animator _animator;
+
+    
     private bool _isEnemyInCollider = false;
 
     private List<GameObject> colliderItems = new List<GameObject>();
@@ -16,6 +19,7 @@ public class PlayerAttack : MonoBehaviour
     private float _nextUpdate = 0.25f;
 
     private ParticleSystem _particleSystem;
+    private uint soundPlayEventID;
 
     private void Awake()
     {
@@ -29,11 +33,17 @@ public class PlayerAttack : MonoBehaviour
         if (shooting)
         {
             shooting = false;
+            AkSoundEngine.StopPlayingID(soundPlayEventID);
+            _animator.SetBool("idle", true);
+            _animator.SetBool("attack", false);
             _particleSystem.Stop();
         }
         else
         {
             shooting = true;
+            soundPlayEventID = AkSoundEngine.PostEvent("Play_flamethrower", gameObject);
+            _animator.SetBool("idle", false);
+            _animator.SetBool("attack", true);
             _particleSystem.Play();
         }
 
